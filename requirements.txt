@@ -1,0 +1,15 @@
+streamlit
+langchain
+langchain-groq
+langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-mcp-adapters
+langgraph
+mcp[cli]
+pdfplumber
+chromadb
+sentence-transformers
+python-dotenv
+faker
+pydantic
