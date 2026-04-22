@@ -13,4 +13,3 @@ sentence-transformers
 python-dotenv
 faker
 pydantic
-nest_asyncio
