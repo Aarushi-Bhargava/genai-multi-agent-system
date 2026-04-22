@@ -21,10 +21,6 @@ ENV/
 .vscode/
 *.code-workspace
 
-# Databases
-data/customers.db
-data/chroma_db/
-
 # Python build
 build/
 dist/
