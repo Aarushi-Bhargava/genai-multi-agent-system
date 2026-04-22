@@ -9,6 +9,7 @@ import logging
 import shutil
 import sys
 import warnings
+import nest_asyncio
 from pathlib import Path
 
 import streamlit as st
@@ -113,7 +114,10 @@ if user_input:
         placeholder.markdown("⏳ Routing your question through the multi-agent system…")
 
         try:
-            result = asyncio.run(ask_async(user_input))
+            
+            nest_asyncio.apply()
+            loop = asyncio.new_event_loop()
+            result = loop.run_until_complete(ask_async(user_input))
             agents = result["agents"]
             answer = result["answer"]
         except Exception as e:
