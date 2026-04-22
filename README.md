@@ -14,7 +14,7 @@ This system demonstrates a **supervisor-worker multi-agent architecture** where:
 - An **MCP Server** (Model Context Protocol) exposes all tools to both agents via a standardized stdio interface
 - A **Streamlit UI** provides a clean chat interface for end users
 
-The system can handle compound questions that require both agents — for example, *"What's the return policy, and does customer #5 have any open tickets?"* — by invoking both specialists in sequence and combining their answers.
+The system can handle compound questions that require both agents — for example, *"What's the return policy, and does customer #5 have any open tickets?"* by invoking both specialists in sequence and combining their answers.
 
 ---
 
