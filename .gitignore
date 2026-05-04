@@ -28,3 +28,7 @@ dist/
 
 # Pip
 pip-log.txt
+
+#data
+data/customers.db
+data/chroma_db/
